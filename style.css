@@ -117,13 +117,13 @@ p {
     padding: 50px;
   }
   
-  .col-25 {
+  .col-20 {
     float: left;
     width: 20%;
     margin-top: 6px;
   }
   
-  .col-75 {
+  .col-80 {
     float: left;
     width: 80%;
     margin-top: 6px;
