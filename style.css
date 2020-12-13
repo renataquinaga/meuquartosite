@@ -35,6 +35,10 @@ header {
   display: none;
 }
 
+.topnav .nomesite {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a {
     display: none;
@@ -43,6 +47,11 @@ header {
     float: right;
     display: block;
   }
+  .topnav a.nomesite {
+    float: left;
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
