@@ -40,6 +40,21 @@ header {
   display: none;
 }
 
+.experimentos {
+  background-color: rgb(199, 25, 25);
+  height: 100%;
+}
+
+.guirlanda {
+  opacity: 0;
+  transform: rotate(0deg);
+}
+
+.guirlanda:hover {
+  opacity: 1;
+  transform: rotate(90deg);
+  transition: all 2s ease-in-out;
+}
 
 body {
   color:black; display: block; margin: 0px;
