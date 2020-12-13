@@ -8,7 +8,7 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color:aliceblue;
+  background-color:rgb(255, 255, 255);
 }
 
 .topnav a {
@@ -22,12 +22,12 @@ header {
 }
 
 .topnav a:hover {
-  background-color:aliceblue;
+  background-color:rgb(255, 255, 255);
   color:#8a1616;
 }
 
 .topnav a.active {
-  background-color:aliceblue;
+  background-color: rgb(255, 255, 255);
   color:#941a1a;
 }
 
