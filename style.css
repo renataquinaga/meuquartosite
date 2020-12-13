@@ -1,4 +1,4 @@
-body {
+header {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: larger;
@@ -8,13 +8,13 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:aliceblue;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,13 +22,13 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color:aliceblue;
+  color:#8a1616;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color:aliceblue;
+  color:#8a1616;
 }
 
 .topnav .icon {
@@ -36,7 +36,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -57,6 +59,11 @@ body {
   }
 }
 
+body {
+  color:black; display: block; margin: 0px;
+  font: 14px/1.4 'Raleway','Verdana', sans-serif;                  
+}
+
 footer ul {
 display: block;
 margin-top: 1em;
@@ -74,6 +81,7 @@ text-decoration: none;
 h1, h2, h3 {
   font-family: 'Raleway','Verdana', sans-serif;
   font-weight: normal;
+  margin: 5vw;
 }
 
 h1 {
@@ -90,11 +98,10 @@ h3 {
   font-family: 'Raleway','Verdana', sans-serif;
   font-size: 1em;
   font-weight: bold;
-  margin: 10px;
 }
 
 p {
-  margin-bottom: 1vw;
+  margin: 5vw;
 }
 
 *{
@@ -131,21 +138,19 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 50px;
 }
 
 .col-20 {
   float: left;
   width: 20%;
-  margin-top: 6px;
+  margin: 5vw;
 }
 
 .col-80 {
   float: left;
   width: 80%;
-  margin-top: 6px;
+  margin: 5vw;
 }
 
 /* Clear floats after the columns */
