@@ -62,9 +62,6 @@ header {
   float: left;
   font-family: 'Playfair Display', serif;
   color: white;
-}
-
-.animate__bounce {
   display: inline-block;
   animation: ease-in-out;
   animation-duration: 2s;
